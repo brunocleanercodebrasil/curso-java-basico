@@ -8,20 +8,18 @@ public class Exercicio_23 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		int[] vetorA = new int[5];
+		int[] vetorA = new int[10];
 		
 		for (int i=0; i<vetorA.length; i++){
 			System.out.println("Entre com o valor da " + (i+1) +"ª posição ");
 			vetorA[i] = scan.nextInt();
+			
+			if (vetorA[i] % 2 != 0){
+				break;
+			}
 		}
 		
 		System.out.print("\nVetor A = ");
-		
-		do{
-			int j=0;
-			System.out.print(vetorA[j] + " ");
-			j++;
-		}while((vetorA[j] % 2 != 0));
 		
 	}
 
