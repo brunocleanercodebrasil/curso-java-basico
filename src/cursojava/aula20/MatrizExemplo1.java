@@ -11,7 +11,7 @@ public class MatrizExemplo1 {
 		//Armazenar 4 notas do ano de 30 alunos
 		//utilizar matriz bi dimensional
 		
-		double[][] notasAlunos = new double[3][4]; //fazer output de apenas 3
+		double[][] notasAlunos = new double[3][4]; 
 		
 		notasAlunos[0][0] = 10;
 		notasAlunos[0][1] = 7;
@@ -29,7 +29,7 @@ public class MatrizExemplo1 {
 		notasAlunos[2][3] = 7;
 		
 		for (int i=0; i<notasAlunos.length; i++){
-			for (int j=0; j<notasAlunos[1].length; j++){
+			for (int j=0; j<notasAlunos[i].length; j++){
 				
 				System.out.print(notasAlunos[i][j] + " ");
 			}
@@ -42,7 +42,7 @@ public class MatrizExemplo1 {
 		for (int i=0; i<notasAlunos.length; i++){
 			soma = 0;
 			
-			for (int j=0; j<notasAlunos[1].length; j++){
+			for (int j=0; j<notasAlunos[i].length; j++){
 				soma+=notasAlunos[i][j];
 				
 			}

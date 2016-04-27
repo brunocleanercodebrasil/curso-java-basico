@@ -10,7 +10,7 @@ public class MatrizExemplo2 {
 		double[][] notasAluno2 = {{7, 8, 9, 10}, {8, 6, 7, 10}};
 		
 		for (int i=0; i<notasAluno2.length; i++){
-			for (int j=0; j<notasAluno2[1].length; j++){
+			for (int j=0; j<notasAluno2[i].length; j++){
 				
 				System.out.print(notasAluno2[i][j] + " ");
 			}
